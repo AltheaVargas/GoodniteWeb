@@ -533,7 +533,7 @@ ul.timeline > li:before {
 
 /** Warranty page css**/
 .warranty-banner{
-    height:263px;
+   
     background: 
     linear-gradient(180deg, rgba(0,0,0,0.54) 0%, rgba(238,238,238,0) 100%),
     url(../images/Group.png);
@@ -543,4 +543,448 @@ ul.timeline > li:before {
 .warranty-banner .warranty-box {
     max-width: 960px;
     margin:0px auto;
+    padding-bottom:50px;
+}
+.warranty-banner .warranty-box .warranty-banner-title{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 72px;
+    letter-spacing: 0;
+    line-height: 73px;
+    text-align: center;
+    text-shadow: 0 2px 13px 0 rgba(0,0,0,0.5);
+    padding-top:92.25px;
+}
+.warranty-banner .warranty-box .warranty-banner-sub-text{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+    max-width:823px;
+    margin:0px auto;
+}
+.warranty-p1{
+    max-width: 821px;
+    margin:0px auto;
+    color: #5A5A5A;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;  
+}
+.warranty-coverage-details{
+    background:#000000;
+    padding-top:50px;
+    padding-bottom:111px;
+}
+.warranty-coverage-details .warranty-coverage-box{
+    max-width:960px;
+    margin:0px auto;
+}
+.warranty-coverage-details .warranty-coverage-box .warranty-coverage-title {
+    color:#ffffff;
+    text-align: center;
+}
+.warranty-coverage-details .warranty-coverage-box .warranty-coverage-title p{
+    font-family: Optima;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.warranty-coverage-details .warranty-coverage-box .warranty-coverage-title span{
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+.warranty-coverage-details .warranty-coverage-box .warranty-columns p{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+    padding-top:20px;
+}
+.warranty-coverage-details .warranty-coverage-box .warranty-columns span{
+    color: #FFFFFF;
+    opacity: 0.8;
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+
+
+
+
+
+.warranty-covered-items{
+    padding-top:50px;
+    padding-bottom:111px;
+}
+.warranty-covered-items  .warranty-covered-items-box{
+    max-width:960px;
+    margin:0px auto;
+}
+.warranty-covered-items  .warranty-covered-items-box .warranty-covered-items-title {
+    color:#ffffff;
+    text-align: center;
+}
+.warranty-covered-items  .warranty-covered-items-box .warranty-covered-items-title p{
+    color: #000000;
+    font-family: Optima;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.warranty-covered-items .image-label{
+    color: #5A5A5A;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-top:23px;
+}
+.warranty-covered-items img{     
+    height: 56px;
+}
+
+@media only screen and (max-width: 767px) {
+    .warranty-covered-items  .warranty-covered-items-box >.row{
+
+        text-align:center;
+    }
+    .warranty-covered-items  .warranty-covered-items-box >.row .image-label{
+        margin: 0px auto;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+}
+
+
+
+.faq-details{
+    background:#000000;
+    padding-top:50px;
+    padding-bottom:111px;
+}
+.faq-details .faq-box{
+    max-width:800px;
+    margin:0px auto;
+}
+.faq-details .faq-box .faq-title {
+    color:#ffffff;
+    text-align: center;
+}
+.faq-details .faq-box .faq-title p{
+    font-family: Optima;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.faq-box ul{
+    list-style: none;
+    width: 100%;
+    padding-left:20px;
+    padding-right: 20px;
+}
+.faq-box i{
+    color: #F1191C;
+    padding-right:7px;
+}
+.faq-box ul li{
+    color: #FFFFFF;
+  font-family: Optima;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 21px;
+  padding-bottom:15px;
+  border-bottom:1px solid rgba(255,255,255,0.5);
+}
+.faq-box ul li div{
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    font-weight: normal;
+    margin-left:20px;
+    opacity:0.8;
+}
+.faq-description{
+    max-width: 960px;
+    margin:0px auto;
+    opacity: 0.5;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 14px;
+  text-align: center;
+  padding-top:82.47px;
+}
+
+.additional-support{
+    padding-top:50px;
+    padding-bottom:111px;
+}
+.additional-support  .additional-support-box{
+    max-width:960px;
+    margin:0px auto;
+}
+.additional-support .additional-support-box .additional-support-title {
+    color:#ffffff;
+    text-align: center;
+    max-width: 850px;
+    margin:0px auto;
+}
+.additional-support  .additional-support-box .additional-support-title p{
+    color: #000000;
+  font-family: Optima;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 36px;
+  text-align:center;
+    text-transform: uppercase;
+}
+.additional-support  .additional-support-box .additional-support-title span{
+    color: #5A5A5A;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+}
+.additional-support img{
+    height:90px;
+}
+.additional-support  .additional-support-box p{
+    margin-top:30px;
+    color: #000000;
+    font-family: Optima;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+.additional-support  .additional-support-box .support-btn{
+    max-width:740px;
+    margin:0px auto;
+}
+@media only screen and (max-width: 575px) {
+    .additional-support{
+        display: block;
+        text-align: center;
+        margin:0px auto;
+    }
+
+}
+
+
+/** locate us page css**/
+.locate-banner{
+   
+    background: 
+    linear-gradient(180deg, rgba(0,0,0,0.54) 0%, rgba(238,238,238,0) 100%),
+    url(../images/locate-banner.png);
+    background-size: cover;
+}
+
+.locate-banner .locate-box {
+    max-width: 960px;
+    margin:0px auto;
+    padding-bottom:50px;
+}
+.locate-banner .locate-box .locate-banner-title{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 72px;
+    letter-spacing: 0;
+    line-height: 73px;
+    text-align: center;
+    text-shadow: 0 2px 13px 0 rgba(0,0,0,0.5);
+    padding-top:92.25px;
+}
+.locate-banner .locate-box .locate-banner-sub-text{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+    max-width:823px;
+    margin:0px auto;
+}
+
+.post-list{
+    max-width:960px;
+}
+
+.post .card-title-post{
+    color: #F1191C;
+    font-family: Optima;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 35px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+}
+.post .card-title-post{
+    color: #F1191C;
+    font-family: Optima;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 35px;
+}
+.post span{
+    position: relative;
+    top:-10px;
+    color: #000000;
+    font-family: Optima;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.post .card-text{
+    height:70px;
+    overflow:hidden;
+}
+.post p{
+    color: #5A5A5A;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+.post ul{
+    list-style: none;
+    padding:0;
+}
+
+.post .card-body{
+    padding-bottom:0px;
+}
+.post .contact-box ul li{
+    padding-top:5px;
+}
+
+.post .contact-box .contact-list{
+    display:flex;
+    color: #5A5A5A;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    overflow: hidden;
+}
+.post .contact-box > ul > li:nth-child(1) {
+    height:50px;
+}
+.post .contact-box > ul > li:nth-child(2) {
+    height:50px;
+}
+
+
+.post .contact-box .contact-list .material-icons{
+    margin-right:10px;
+    color:#ccc;
+}
+
+.post .contact-box .contact-list .phone-no{
+    margin-right:10px;
+    color:#ccc;
+}
+
+.post .contact-box .contact-list .phone-no img{
+    width:28px;
+}
+
+.post .contact-box .contact-list .phone-message{
+    margin-right:10px;
+    color:#ccc;
+}
+
+.post-list .card-footer{
+    background:red;
+}
+.post-list .card-footer a{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+.find-us{
+    color:#fff;
+    padding-top:0px;
+    background:#000;
+   
+  }
+.find-us > .find-us-box {
+    max-width: 1170px;
+}
+
+.find-us > .find-us-box p{
+    margin-top:200px;
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.find-us > .find-us-box .description{
+    height: 39px;
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: 10;
+    line-height: 19px;
+    margin-bottom:30px;
+}
+
+.find-us > .find-us-box .find-us-btn{
+    box-sizing: border-box;
+  height: 38px;
+  width: 227px;
+  border: 1px solid #FFFFFF;
+  background-color: rgba(255,255,255,0);
+  color:#fff;
+}
+
+@media only screen and (max-width: 1024px) {
+    .find-us > .find-us-box p{
+        margin-top:150px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .find-us > .find-us-box p{
+        margin-top:50px;
+    }
+    .find-us{
+        padding-bottom:80px;
+    }
+}
+@media only screen and (max-width: 519px) {
+    .find-us > .find-us-box .find-us-btn{
+        margin-top:20px;
+    }
 }
