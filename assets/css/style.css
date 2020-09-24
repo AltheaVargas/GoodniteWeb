@@ -1,0 +1,546 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto Regular'), url('fonts/Roboto-Regular.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima'), url('fonts/OPTIMA.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Optima Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Italic'), url('fonts/Optima_Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Optima Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Medium'), url('fonts/Optima_Medium.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Optima Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Bold'), url('fonts/OPTIMA_B.woff') format('woff');
+    }
+
+body{
+    font-family:'Optima';
+}
+
+header{
+
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+}
+
+.nav-box{
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        padding-left:10px;
+        padding-right:10px;
+       }
+}
+  
+.nav-item {
+    padding-left:8px;
+    padding-right:8px;
+}
+.nav-item > .nav-link {
+    color: #000000 !important;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+    background:#fff;
+}
+
+.banner-box{
+    width:100%;
+    height: 686px;
+    background: 
+      linear-gradient(180deg, rgba(0,0,0,0.54) 0%, rgba(238,238,238,0) 100%),
+      url(../images/bannerbg.png);
+      background-size: cover;
+}
+
+.banner-box > .banner-header{
+    width:100;
+    text-align: center;
+}
+
+.banner-box > .banner-header > .banner-main-text{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 72px;
+    letter-spacing: 0;
+    line-height: 73px;
+    padding-top:76px;
+    text-align: center;
+    text-shadow: 0 2px 13px 0 rgba(0,0,0,0.5);
+}
+
+.banner-box > .banner-header > .banner-sub-text{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 42px;
+    padding-top:16px;
+    text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.banner-box > .banner-header > .banner-button{
+    box-sizing: border-box;
+    height: 51px;
+    width: 255px;
+    border: 1px solid #FFFFFF;
+    background-color: rgba(255,255,255,0);
+    color: #FFFFFF;
+    font-family: Optima bold;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+    margin-top:38.5px;
+}
+
+@media only screen and (max-width: 640px) {
+    .banner-box > .banner-header > .banner-main-text{
+        font-size: 50px !important;
+    }
+    .banner-box > .banner-header > .banner-sub-text{
+        font-size:20px;
+    }
+}
+.comfort-image{
+  padding-top:70.16px;
+  padding-bottom:70.16px;
+  max-width: 960px;
+}
+
+.comfort-image img{
+    height: 100px;
+  width: 200px;
+    margin:0px auto;
+    margin-bottom:20px;
+    display: block;
+
+}
+
+.comfort-title{
+    color: #000000;
+    font-family: Optima;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    height: 30px;
+    margin-bottom:15px;
+
+}
+@media only screen and (max-width: 912px) {
+    .comfort-title{
+        margin-bottom:45px;
+        text-align:center;
+    }
+}
+@media only screen and (max-width: 686px) {
+    .comfort-title{
+        margin-bottom:30px;
+        text-align:center;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .comfort-title{
+        margin-bottom:65px;
+        text-align:center;
+    }
+}
+
+.comfort-description{
+    color: #5A5A5A;
+  
+    font-family: Roboto Regular;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+
+}
+
+.free-installment{
+    background-color: #000000;
+    width:100%;
+}
+
+.free-installment> .free-installment-box{
+    max-width: 960px;
+    padding-bottom:80px;
+}
+
+.free-installment> .free-installment-box >.row > .installment-header{
+    width: 419px;
+  color: #FFFFFF;
+  font-family: Optima;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 36px;
+  padding-top:80px;
+  text-align: center;
+  padding-bottom:80px;
+  text-transform: uppercase;
+  margin:0px auto;
+
+}
+
+.free-installment> .free-installment-box >.row .image-label{
+    height: 21px;
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .free-installment> .free-installment-box >.row{
+
+        text-align:center;
+    }
+    .free-installment> .free-installment-box >.row .image-label{
+        margin: 0px auto;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+}
+
+  .why-us{
+      background:#fff;
+      padding-top:80px;
+      padding-bottom:80px;
+  }
+
+  .why-us > .why-us-box {
+    max-width: 960px;
+    padding-bottom:80px;
+  }
+
+.why-us > .why-us-box > .row > .why-us-header {
+    margin:0px auto;
+    height: 37px;
+    width: 273px;
+    color: #000000;
+    font-family: Optima;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom:71px;
+}
+
+
+.why-us > .why-us-box > .row p {
+    height: 21px;
+    width: 179px;
+    color: #000000;
+    font-family: Optima;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-top:19px;
+}
+
+.why-us > .why-us-box > .row  .description {
+    color: #5A5A5A;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+  
+@media only screen and (max-width: 575px) {
+    .why-us > .why-us-box > .row {
+
+        text-align:center;
+    }
+    .why-us > .why-us-box > .row  .description{
+        margin: 0px auto;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .why-us > .why-us-box > .row  p{
+        margin: 0px auto;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+}
+
+.limited-warranty{
+    padding-top:80px;
+    width:100%;
+    height: 460px;
+    background: 
+      linear-gradient(180deg, rgba(0,0,0,0.54) 0%, rgba(238,238,238,0) 100%),
+      url(../images/iwood-R5v8Xtc0ecg-unsplash.png);
+      background-size: cover;
+      background-position: center;
+  }
+
+.limited-warranty > .warranty-header{
+    width:100;
+    text-align: center;
+}
+
+.limited-warranty> .warranty-header > .warranty-main-text{
+    height: 34px;
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 35px;
+    text-align: center;
+    margin:0px auto;
+}
+
+.limited-warranty > .warranty-header > .warranty-sub-text{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+    margin-top:10px;
+}
+
+.limited-warranty > .warranty-header > .warranty-button{
+    box-sizing: border-box;
+    height: 51px;
+    width: 255px;
+    border: 1px solid #FFFFFF;
+    background-color: rgba(255,255,255,0);
+    color: #FFFFFF;
+    font-family: Optima bold;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+    margin-top:38.5px;
+}
+
+@media only screen and (max-width: 424px) {
+    .limited-warranty> .warranty-header > .warranty-main-text{
+        margin-bottom:40px;
+  }
+}
+.variety{
+    color:#fff;
+    padding-top:80px;
+    background:#000;
+   
+  }
+.variety > .variety-box {
+    max-width: 1170px;
+}
+
+.variety > .variety-box p{
+    height: 84px;
+    margin-top:200px;
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+
+.variety > .variety-box .description{
+    height: 39px;
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: 10;
+    line-height: 19px;
+    margin-bottom:30px;
+}
+
+.variety > .variety-box .variety-btn{
+    box-sizing: border-box;
+  height: 38px;
+  width: 227px;
+  border: 1px solid #FFFFFF;
+  background-color: rgba(255,255,255,0);
+  color:#fff;
+}
+
+@media only screen and (max-width: 1024px) {
+    .variety > .variety-box p{
+        margin-top:150px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .variety > .variety-box p{
+        margin-top:50px;
+    }
+    .variety{
+        padding-bottom:80px;
+    }
+}
+@media only screen and (max-width: 519px) {
+    .variety > .variety-box .variety-btn{
+        margin-top:20px;
+    }
+}
+.purchase-app{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.purchase-app > .purchase-box{
+    max-width: 960px;
+}
+
+.purchase-app > .purchase-box> .purchase-main-text{
+    height: 37px;
+    color: #000000;
+    font-family: Optima;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 36px;
+    text-align: center;
+}
+
+ul.timeline {
+    margin-top:155px;
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #F1191C;;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 60px 0;
+    padding-left: 20px;
+    color: #000000;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #F1191C;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+@media only screen and (max-width: 767px) {
+    ul.timeline{
+        margin-top:-40px;
+        text-align: left;
+    }
+    .purchase-app{
+        text-align: center;
+    }
+}
+
+.footer-box{
+    max-width: 960px;
+    margin:0px auto;
+    padding-bottom:50px;
+}
+.footer-box a{
+    color: #000000;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+@media only screen and (max-width: 785px) {
+    .footer-links,.footer-apps{
+       margin:0px auto;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .footer-box{
+        display: block;
+        text-align: center;
+        margin:0px auto;
+    }
+    .sub-footer{
+        display: block !important;
+        text-align: center;
+    }
+    
+    .footer-social{
+        display: inline;
+        margin:0px auto !important;
+    }
+}
+
+.sub-footer{
+    max-width: 960px;
+    margin:0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sub-footer a{
+    color: #787878;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+
+
+/** Warranty page css**/
+.warranty-banner{
+    height:263px;
+    background: 
+    linear-gradient(180deg, rgba(0,0,0,0.54) 0%, rgba(238,238,238,0) 100%),
+    url(../images/Group.png);
+    background-size: cover;
+}
+
+.warranty-banner .warranty-box {
+    max-width: 960px;
+    margin:0px auto;
+}
