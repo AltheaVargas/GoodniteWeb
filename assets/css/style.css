@@ -1016,6 +1016,7 @@ ul.timeline > li:before {
     .locate-banner{
         margin-bottom:60px;
     }
+}
 
 @media only screen and (max-width: 1024px) {
     .find-us > .find-us-box p{
