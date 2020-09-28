@@ -1164,3 +1164,232 @@ ul.timeline > li:before {
         margin-bottom:20px;
     }
 }
+
+/** FAQ page css rules */
+
+.faq-banner{
+    background: 
+    linear-gradient(180deg, rgba(0,0,0,0.64) 0%, rgba(0,0,0,0.64) 74%, rgba(238,238,238,0) 100%),
+    url(../images/faq-banner.jpg);
+    background-size: cover;
+}
+
+.faq-banner .faq-banner-box {
+    max-width: 960px;
+    margin:0px auto;
+    padding-bottom:50px;
+}
+.faq-banner .faq-banner-box .faq-banner-title{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 72px;
+    letter-spacing: 0;
+    line-height: 73px;
+    text-align: center;
+    text-shadow:  2px 2px  rgba(0,0,0,0.5);
+    padding-top:92.25px;
+}
+.faq-banner .faq-banner-box .faq-banner-sub-text{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+    max-width:823px;
+    margin:0px auto;
+}
+
+.faq-details-box{
+    background:#ffffff;
+    padding-top:50px;
+    padding-bottom:111px;
+}
+.faq-details-box .faq-box{
+    max-width:800px;
+    margin:0px auto;
+}
+
+.faq-details-box .faq-box ul{
+    list-style: none;
+    width: 100%;
+    padding-left:20px;
+    padding-right: 20px;
+}
+.faq-details-box .faq-box i{
+    color: #F1191C;
+    padding:0;
+}
+.faq-details-box .title{
+    margin-left:8px;
+    cursor:pointer;
+}
+.faq-details-box .faq-box ul li{
+    color: #000000;
+  font-family: Optima;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 21px;
+  padding-bottom:15px;
+  border-bottom: 1px solid #E1E1E1;
+}
+.faq-details-box .faq-box ul li div{
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    font-weight: normal;
+    margin-left:20px;
+    max-height: 0;
+    margin-top:10px;
+    opacity:0.8;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.icon_drop_rotate_down{
+    transform: rotate(90deg);
+}
+.faq-box .accordion .text-danger{
+    color:#F1191C!important;
+}
+
+
+.search-box{
+    max-width: 960px;
+    margin:0px auto;
+
+}
+.search-box .search-form{
+    display: flex;
+    max-width: 653px;
+    margin: 0px auto;
+}
+.search-box .search-form button{
+    background:#ffffff;
+    border:0;
+
+}
+.search-box .search-form input{
+    background:#ffffff;
+    color: #C3C3C3;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    border:0;
+}
+.search-box .search-form input:focus{
+    border:0;
+    box-shadow: none;
+    
+}
+.search-box .search-box-container{
+    border:2px solid #eee;
+    border-radius:12px;
+    top:-20px;
+    max-width: 653px;
+    margin:0px auto;
+    position: relative;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.1);
+}
+
+/**privacy policy page css rules */
+
+.privacy-banner{
+    background: 
+    linear-gradient(180deg, rgba(0,0,0,0.64) 0%, rgba(0,0,0,0.64) 74%, rgba(238,238,238,0) 100%),
+    url(../images/privacy_banner.jpg);
+    background-size: cover;
+}
+
+.privacy-banner .privacy-banner-box {
+    max-width: 960px;
+    margin:0px auto;
+    padding-bottom:80px;
+}
+.privacy-banner .privacy-banner-box .privacy-banner-title{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 72px;
+    letter-spacing: 0;
+    line-height: 73px;
+    text-align: center;
+    text-shadow:  2px 2px  rgba(0,0,0,0.5);
+    padding-top:92.25px;
+}
+.privacy-details-box .privacy-box{
+    max-width:823px;
+    margin:0px auto;
+    color: #5A5A5A;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.privacy-details-box .privacy-box h6{
+    font-weight: bold;
+    color:#000000;
+}
+.privacy-details-box .privacy-box ul{
+    padding-left:15px;
+
+}
+
+/** donwload app page css rules */
+.download-app-banner-box{
+    width:100%;
+    background: 
+      linear-gradient(180deg, rgba(0,0,0,0.54) 0%, rgba(0,0,0,0.74) 54%, rgba(238,238,238,0) 100%),
+      url(../images/download-app-banner.png);
+      background-size: cover;
+}
+.download-app-banner-box .download-app-box-holder{
+    margin:0px auto;
+    max-width: 960px;
+    padding-top:30px;
+    padding-bottom:70px;
+}
+.download-app-banner-box .download-app-box-holder .download-app-header-text{
+    color: #FFFFFF;
+    font-family: Optima;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 42px;
+    text-shadow:  2px 2px  rgba(0,0,0,0.5);
+    margin-top:200px;
+    text-transform: uppercase;
+}
+
+.download-app-banner-box .download-app-box-holder .download-btn-qr{
+    max-width:420px;
+    margin-left:-28px;
+}
+
+@media only screen and (max-width: 871px) {
+    .download-app-banner-box .download-app-box-holder{
+        text-align: center;
+    }
+    .download-app-banner-box .download-app-box-holder .download-btn-qr{
+        margin:0px auto;
+    }
+}
+
+@media only screen and (max-width: 868px) {
+    .download-app-banner-box .download-app-box-holder .download-app-header-text{
+        margin-top:100px;
+    }
+    .download-app-banner-box .download-app-box-holder .download-btn-qr{
+        margin:0px auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .download-app-banner-box .download-app-box-holder .download-app-header-text{
+        margin-top:100px;
+    }
+    .download-app-banner-box .download-app-box-holder .download-btn-qr{
+        margin:0px auto;
+        margin-bottom:60px;
+    }
+}
