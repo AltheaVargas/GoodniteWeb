@@ -258,6 +258,7 @@ header{
     max-width: 960px;
     padding-bottom:80px;
   }
+ 
 
 .why-us > .why-us-box > .row > .why-us-header {
     margin:0px auto;
@@ -869,7 +870,7 @@ ul.timeline > li:before {
     max-width:960px;
 }
 
-.post .card-title-post{
+.post-list  .card-title-post{
     color: #F1191C;
     font-family: Optima;
     font-size: 28px;
@@ -880,14 +881,14 @@ ul.timeline > li:before {
     display: block;
     overflow: hidden;
 }
-.post .card-title-post{
+.post-list .post .card-title-post{
     color: #F1191C;
     font-family: Optima;
     font-size: 28px;
     letter-spacing: 0;
     line-height: 35px;
 }
-.post span{
+.post-list .post span{
     position: relative;
     top:-10px;
     color: #000000;
@@ -900,30 +901,30 @@ ul.timeline > li:before {
     white-space: nowrap;
     overflow: hidden;
 }
-.post .card-text{
+.post-list .post .card-text{
     height:70px;
     overflow:hidden;
 }
-.post p{
+.post-list .post p{
     color: #5A5A5A;
     font-family: Optima;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 21px;
 }
-.post ul{
+.post-list .post ul{
     list-style: none;
     padding:0;
 }
 
-.post .card-body{
+.post-list .post .card-body{
     padding-bottom:0px;
 }
-.post .contact-box ul li{
+.post-list .post .contact-box ul li{
     padding-top:5px;
 }
 
-.post .contact-box .contact-list{
+.post-list .post .contact-box .contact-list{
     display:flex;
     color: #5A5A5A;
     font-family: Optima;
@@ -932,29 +933,29 @@ ul.timeline > li:before {
     line-height: 21px;
     overflow: hidden;
 }
-.post .contact-box > ul > li:nth-child(1) {
+.post-list .post .contact-box > ul > li:nth-child(1) {
     height:50px;
 }
-.post .contact-box > ul > li:nth-child(2) {
+.post-list .post .contact-box > ul > li:nth-child(2) {
     height:50px;
 }
 
 
-.post .contact-box .contact-list .material-icons{
+.post-list .post .contact-box .contact-list .material-icons{
     margin-right:10px;
     color:#ccc;
 }
 
-.post .contact-box .contact-list .phone-no{
+.post-list .post .contact-box .contact-list .phone-no{
     margin-right:10px;
     color:#ccc;
 }
 
-.post .contact-box .contact-list .phone-no img{
+.post-list .post .contact-box .contact-list .phone-no img{
     width:28px;
 }
 
-.post .contact-box .contact-list .phone-message{
+.post-list .post .contact-box .contact-list .phone-message{
     margin-right:10px;
     color:#ccc;
 }
@@ -1044,12 +1045,80 @@ ul.timeline > li:before {
     .post-list .card-footer{
         margin-bottom:20px;
     }
+    .post-list2 .direction{
+        position: relative;
+        top:15px;
+    }
 }
 @media only screen and (max-width: 519px) {
     .find-us > .find-us-box .find-us-btn{
         margin-top:20px;
     }
 }
+
+.post-list2{
+    max-width:960px;
+}
+.post-list2  .card-title-post{
+    color: #F1191C;
+    font-family: Optima;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 35px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+}
+
+.post-list2 .direction{
+    color: #F1191C;
+    font-family: Optima;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+.post-list2 .card-text{
+    color: #5A5A5A;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: relative;
+    top:7px;
+}
+.post-list2 .time{
+    color: #000000;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+.post-list2 .title{
+    color: #000000;
+    font-family: Optima;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+.post-list2 .contacts{
+    color: #5A5A5A;
+    font-family: Optima;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;  
+    padding-bottom:10px;
+}
+.post-list2 .phone-message{
+    color:#ccc;
+}
+.post-list2 .img-fluid{
+    height:100%;
+}
+
+
 
 
 /** contact us page css rules */
