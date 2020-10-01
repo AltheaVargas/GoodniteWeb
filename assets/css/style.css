@@ -259,6 +259,7 @@ header{
     padding-bottom:80px;
   }
  
+ 
 
 .why-us > .why-us-box > .row > .why-us-header {
     margin:0px auto;
@@ -445,7 +446,7 @@ header{
 }
 
 .purchase-app > .purchase-box{
-    max-width: 960px;
+    max-width: 850px;
 }
 
 .purchase-app > .purchase-box> .purchase-main-text{
@@ -521,6 +522,12 @@ ul.timeline > li:before {
         padding-left: 10px;
   
     }
+}
+
+@media only screen and (max-width: 386px) {
+   .purchase-app img{
+       margin-top:40px;
+   }
 }
 
 .footer-box{
@@ -982,7 +989,7 @@ ul.timeline > li:before {
 }
 
 .find-us > .find-us-box p{
-    margin-top:200px;
+    margin-top:250px;
     color: #FFFFFF;
     font-family: Optima;
     font-size: 28px;
