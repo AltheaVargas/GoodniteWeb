@@ -1353,16 +1353,23 @@ ul.timeline > li:before {
     font-size: 16px;
     letter-spacing: 0;
     line-height: 21px;
-    border:0;
+    border:0 !important;
+ 
+
 }
 .search-box .search-form input:focus{
     border:0;
     box-shadow: none;
     
 }
+.search-box .search-form button:focus{
+    border:0;
+    box-shadow: none;
+    
+}
 .search-box .search-box-container{
-    border:2px solid #eee;
-    border-radius:12px;
+    background:#ffff;
+    border-radius: 5px;
     top:-20px;
     max-width: 653px;
     margin:0px auto;
