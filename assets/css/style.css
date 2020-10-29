@@ -1479,6 +1479,23 @@ ul.timeline > li:before {
     }
 }
 
+@media only screen and (max-width: 449px) {
+    .download-app-banner-box .download-app-box-holder .download-app-header-text{
+        margin-top:0px;
+        font-size:27px;
+        
+    }
+    .download-app-banner-box  .text-center img:nth-child(1) {
+        margin-top:-50px;
+    }
+    .download-app-banner-box .download-app-box-holder .download-btn-qr img:nth-child(2){
+        margin-top:-20px;
+    }
+    .download-app-banner-box .download-app-box-holder{
+        padding-bottom:30px;
+    }
+}
+
 /** product page css**/
 .product-banner{
    
@@ -1523,6 +1540,10 @@ ul.timeline > li:before {
     background:#F6F6F6 !important;
 }
 
+.product-listings .bg-dark{
+    background:#000 !important;
+}
+
 .product-listings h3{
     color: #000000;
     font-family: Optima;
@@ -1536,6 +1557,13 @@ ul.timeline > li:before {
 
 .product-listings .row h3{
     color: #5A5A5A;
+    margin:20px;
+    padding-top:103px;
+    padding-bottom:103px;
+    border: 3px solid #E1E1E1;
+}
+.product-listings .row .bg-dark h3{
+    color: #fff;
     margin:20px;
     padding-top:103px;
     padding-bottom:103px;
@@ -1556,7 +1584,6 @@ ul.timeline > li:before {
 
   .see-more{
     color:#fff;
-
     background:#000;
    
   }
@@ -1615,9 +1642,13 @@ ul.timeline > li:before {
         flex-direction: column-reverse;
         text-align: center;
     }
+    .see-more{
+        padding:0px;
+    }
 }
 @media only screen and (max-width: 519px) {
     .see-more > .see-more-box .see-more-btn{
-        margin-top:20px;
+        margin-top:30px;
     }
+
 }
